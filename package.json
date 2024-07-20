@@ -1,9 +1,9 @@
 {
   "name": "front-end-developer-capstone-project-little-lemon",
-  "private": false,
+  "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://luanlushera.github.io/front-end-developer-capstone-project-little-lemon",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -12,7 +12,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "formik": "^2.2.9",
