@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": ".",
+  "homepage": "https://luanlushera.github.io/front-end-developer-capstone-project-little-lemon",
   "scripts": {
     "dev": "vite",
     "start": "vite",
