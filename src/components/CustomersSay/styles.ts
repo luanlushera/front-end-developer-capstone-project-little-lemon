@@ -12,26 +12,26 @@ export const Container = styled.div<HTMLAttributes<HTMLDivElement>>`
   gap: 4.3rem;
   padding-top: 4rem;
 
-  ::before {
-    content: "";
-    width: 100%;
-    height: 100vh;
-    min-height: 59rem;
-    margin-bottom: -4rem;
-    position: absolute;
-    background-color: rgba(251, 218, 187, 0.3);
-    z-index: -1;
+  // ::before {
+  //   content: "";
+  //   width: 100%;
+  //   height: 100vh;
+  //   min-height: 59rem;
+  //   margin-bottom: -4rem;
+  //   position: absolute;
+  //   background-color: rgba(251, 218, 187, 0.3);
+  //   z-index: -1;
 
-    @media (max-width: 1120px) {
-      min-height: 100rem;
-    }
+  //   @media (max-width: 1120px) {
+  //     min-height: 100rem;
+  //   }
 
-    @media (max-width: 606px) {
-      /* height: 100%; */
-      height: 190rem;
-      min-height: 190rem;
-    }
-  }
+  //   @media (max-width: 606px) {
+  //     /* height: 100%; */
+  //     height: 190rem;
+  //     min-height: 190rem;
+  //   }
+  // }
 
   @media (max-width: 1120px) {
     width: 90%;

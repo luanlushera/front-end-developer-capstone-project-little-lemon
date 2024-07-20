@@ -16,24 +16,19 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
           </h4>
           <ul>
             <li>
-              {" "}
-              <HashLink to="/">Home</HashLink>{" "}
+              <HashLink to="/">Home</HashLink>
             </li>
             <li>
-              {" "}
-              <HashLink to="/#">Menu</HashLink>{" "}
+              <HashLink to="/#">Menu</HashLink>
             </li>
             <li>
-              {" "}
-              <HashLink to="/bookings">Reservations</HashLink>{" "}
+              <HashLink to="/bookings">Reservations</HashLink>
             </li>
             <li>
-              {" "}
-              <HashLink to="/#">Order Online</HashLink>{" "}
+              <HashLink to="/#">Order Online</HashLink>
             </li>
             <li>
-              {" "}
-              <HashLink to="/#">Login</HashLink>{" "}
+              <HashLink to="/#">Login</HashLink>
             </li>
           </ul>
         </Column>
@@ -50,20 +45,18 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
               </address>
             </li>
             <li>
-              {" "}
               <a href="tel:+12345678910" target="_blank" rel="external">
                 +1 23 4567-8910
-              </a>{" "}
+              </a>
             </li>
             <li>
-              {" "}
               <a
                 href="mailto:contact@littlelemon.com"
                 target="_blank"
                 rel="external"
               >
                 contact@littlelemon.com
-              </a>{" "}
+              </a>
             </li>
           </ul>
         </Column>
@@ -71,40 +64,47 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
           <h4>Social Media</h4>
           <ul>
             <li>
-              {" "}
               <a
-                href="https://www.facebook.com/littlelemon"
+                href="https://facebook.com/luannguyen252"
                 target="_blank"
                 rel="external"
               >
                 Facebook
-              </a>{" "}
+              </a>
             </li>
             <li>
-              {" "}
               <a
-                href="https://www.instagram.com/littlelemon"
+                href="https://www.instagram.com/design.luannguyen"
                 target="_blank"
                 rel="external"
               >
                 Instagram
-              </a>{" "}
+              </a>
             </li>
             <li>
-              {" "}
               <a
-                href="https://twitter.com/littlelemon"
+                href="https://x.com/luannguyen252"
                 target="_blank"
                 rel="external"
               >
                 Twitter
-              </a>{" "}
+              </a>
             </li>
           </ul>
         </Column>
       </Content>
       <Copyright>
-        <p>&copy; 2024 Little Lemon. All rights reserved.</p>
+        <p>
+          &copy; 2024 Little Lemon by
+          <a
+            href="https://luannguyen.design/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Luan Nguyen
+          </a>
+          . All rights reserved.
+        </p>
       </Copyright>
     </Container>
   );
