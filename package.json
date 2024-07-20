@@ -1,6 +1,6 @@
 {
   "name": "front-end-developer-capstone-project-little-lemon",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "homepage": "https://luanlushera.github.io/front-end-developer-capstone-project-little-lemon",

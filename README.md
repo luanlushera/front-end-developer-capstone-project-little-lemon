@@ -1,5 +1,7 @@
 # Little Lemon
 
+![Little Lemon website](./screenshot.png "Little Lemon website")
+
 > The Little Lemon app is the capstone project for Meta's Front-End Developer Certificate on Coursera.
 
 ## Introduction
